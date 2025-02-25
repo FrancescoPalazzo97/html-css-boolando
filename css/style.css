@@ -18,6 +18,11 @@ main {
     vertical-align: middle;
 }
 
+header a, footer a {
+    text-decoration: none;
+    color: white;
+}
+
 /* TXT */
 
 .txt-white {
@@ -137,8 +142,6 @@ header {
 }
 
 .l-col a, .r-col a {
-    color: white;
-    text-decoration: none;
     transition: 0.5s;
 }
 
@@ -151,6 +154,10 @@ header a:hover {
 }
 
 /* MAIN CONTENT */
+
+main .container {
+    margin-bottom: 50px;
+}
 
 /* CARD */
 
@@ -216,4 +223,43 @@ button:hover {
 .label, 
 .card-content:not(:first-child) {
     font-weight: bold;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #1A1A1A;
+    color: white;
+}
+
+footer .container {
+    padding: 20px 0;
+}
+
+footer h3 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+footer span {
+    font-size: 14px;
+    margin-right: 5px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.info {
+    width: 32%;
+}
+
+.social {
+    width: 11%;
+    font-size: 14px;
+}
+
+.social i {
+    font-size: 20px;
+    margin: 5px 5px 0 0;
 }
