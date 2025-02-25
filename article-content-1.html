@@ -21,8 +21,8 @@
                 <span><a href="#">Bambino</a></span>
             </div>
             <!-- CENTER COL -->
-            <div class="c-col d-flex j-center">
-                <a href="./index.html">
+            <div class="c-col">
+                <a href="./index.html" class="d-flex j-center">
                     <img src="./img/boolean-logo.png" alt="Logo Boolean" class="logo">
                 </a>
             </div>
@@ -46,7 +46,8 @@
             </div>
         </div>
     </main>
-    <footer class="p-sticky z-index-1">
+    <!-- Qui lavorando su du schermi con risoluzioni e dimensioni diverse ho notato che sullo schemo principale 1440p il footer stava attaccato subito dopo il main e non ha fine viewport quindi ho usato position sticky ed ho parzialmente risolto il problema. Nella pagina article-content-1 è sempre visibile ovviamente a fine viewport -->
+    <footer class="p-fixed z-index-1">
         <div class="container mx-auto d-flex j-between align-items-center">
             <div class="info">
                 <h3>Boolando s.r.l</h3>
