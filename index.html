@@ -11,16 +11,20 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <header class="p-fixed">
+    <!-- HEADER -->
+    <header class="p-fixed z-index-1">
         <div class="container d-flex no-wrap mx-auto py-10">
+            <!-- LEFT COL -->
             <div class="l-col d-flex align-items-center gap-10">
                 <span><a href="#">Donna</a></span>
                 <span><a href="#">Uomo</a></span>
                 <span><a href="#">Bambino</a></span>
             </div>
+            <!-- CENTER COL -->
             <div class="c-col d-flex j-center">
                 <img src="./img/boolean-logo.png" alt="Logo Boolean" class="logo">
             </div>
+            <!-- RIGHT COL -->
             <div class="r-col d-flex align-items-center j-end gap-10">
                 <span><a href="#"><i class="fa-regular fa-user"></i></a></span>
                 <span><a href="#"><i class="fa-regular fa-heart"></i></a></i></span>
@@ -28,7 +32,152 @@
             </div>
         </div>
     </header>
-    <main></main>
+    <!-- MAIN CONTENT -->
+    <main>
+        <div class="container mx-auto d-flex j-between wrap ptop-70 row-gap">
+            <!-- CARD 1 -->
+            <div class="card">
+                <div class="card-image p-relative">
+                    <img src="./img/1.webp" alt="Foto 1">
+                    <button class="btn-heart p-absolute">
+                        <i class="fa-solid fa-heart"></i>
+                    </button>
+                    <div class="p-absolute label">
+                        <span class="discount">-50%</span>
+                        <span class="eco">Sostenibilit&agrave;</span>
+                    </div>
+                </div>
+                <div class="card-content">
+                    <div class="brand">
+                        Levi's
+                    </div>
+                    <div class="name-article">
+                        <span>relaxed fit tee unisex</span>
+                    </div>
+                    <div class="price">
+                        <span class="txt-red">14,99 &euro;</span>
+                        <span class="txt-deco-line-through">29,99 &euro;</span>
+                    </div>
+                </div>
+            </div>
+            <!-- CARD 2 -->
+            <div class="card">
+                <div class="card-image p-relative">
+                    <img src="./img/2.webp" alt="Foto 2">
+                    <button class="btn-heart p-absolute">
+                        <i class="fa-solid fa-heart"></i>
+                    </button>
+                    <div class="p-absolute label">
+                        <span class="discount">-30%</span>
+                    </div>
+                </div>
+                <div class="card-content">
+                    <div class="brand">
+                        Guess
+                    </div>
+                    <div class="name-article">
+                        <span>Roses tee</span>
+                    </div>
+                    <div class="price">
+                        <span class="txt-red">20,99 &euro;</span>
+                        <span class="txt-deco-line-through">29,99 &euro;</span>
+                    </div>
+                </div>
+            </div>
+            <!-- CARD 3 -->
+            <div class="card">
+                <div class="card-image p-relative">
+                    <img src="./img/3.webp" alt="Foto 3">
+                    <button class="btn-heart p-absolute">
+                        <i class="fa-solid fa-heart"></i>
+                    </button>
+                    <div class="p-absolute label">
+                        <span class="discount">-30%</span>
+                    </div>
+                </div>
+                <div class="card-content">
+                    <div class="brand">
+                        Come Zucchero Filato
+                    </div>
+                    <div class="name-article">
+                        <span>Voglia di colori pastello</span>
+                    </div>
+                    <div class="price">
+                        <span class="txt-red">129,99 &euro;</span>
+                        <span class="txt-deco-line-through">184,99 &euro;</span>
+                    </div>
+                </div>
+            </div>
+            <!-- CARD 4 -->
+            <div class="card">
+                <div class="card-image p-relative">
+                    <img src="./img/4.webp" alt="Foto 4">
+                    <button class="btn-heart p-absolute">
+                        <i class="fa-solid fa-heart"></i>
+                    </button>
+                    <div class="p-absolute label">
+                        <span class="discount">-50%</span>
+                        <span class="eco">Sostenibilit&agrave;</span>
+                    </div>
+                </div>
+                <div class="card-content">
+                    <div class="brand">
+                        Levi's
+                    </div>
+                    <div class="name-article">
+                        <span>Tee unisex</span>
+                    </div>
+                    <div class="price">
+                        <span class="txt-red">14,99 &euro;</span>
+                        <span class="txt-deco-line-through">29,99 &euro;</span>
+                    </div>
+                </div>
+            </div>
+            <!-- CARD 5 -->
+            <div class="card">
+                <div class="card-image p-relative">
+                    <img src="./img/5.webp" alt="Foto 5">
+                    <button class="btn-heart p-absolute">
+                        <i class="fa-solid fa-heart"></i>
+                    </button>
+                </div>
+                <div class="card-content">
+                    <div class="brand">
+                        Maya Deluxe
+                    </div>
+                    <div class="name-article">
+                        <span>Stripe bodice</span>
+                    </div>
+                    <div class="price">
+                        <span class="txt-red">99,99&euro;</span>
+                    </div>
+                </div>
+            </div>
+            <!-- CARD 6 -->
+            <div class="card">
+                <div class="card-image p-relative">
+                    <img src="./img/6.webp" alt="Foto 6">
+                    <button class="btn-heart p-absolute">
+                        <i class="fa-solid fa-heart"></i>
+                    </button>
+                    <div class="p-absolute label">
+                        <span class="eco">Sostenibilit&agrave;</span>
+                    </div>
+                </div>
+                <div class="card-content">
+                    <div class="brand">
+                        Esprit
+                    </div>
+                    <div class="name-article">
+                        <span>Maglione - black</span>
+                    </div>
+                    <div class="price">
+                        <span class="txt-red">29,99 &euro;</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
     <footer></footer>
 </body>
 </html>
