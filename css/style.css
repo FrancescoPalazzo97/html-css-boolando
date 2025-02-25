@@ -23,6 +23,10 @@ header a, footer a {
     color: white;
 }
 
+main a {
+    
+}
+
 /* TXT */
 
 .txt-white {
@@ -167,8 +171,24 @@ main .container {
 
 /* CARD IMAGE */
 
+.image-a {
+    display: block;
+}
+
+.image-b {
+    display: none;
+}
+
 .card-image>img {
     width: 100%;
+}
+
+.card-image:hover .image-a {
+    display: none;
+}
+
+.card-image:hover .image-b {
+    display: block;
 }
 
 button {
